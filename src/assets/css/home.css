@@ -1,0 +1,18 @@
+
+.section-bg {
+    position: fixed;
+    z-index: -3;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/homepage/new15_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* let header move together with bg */
+    top: 0%;
+}
+
+
+.section_title_border {
+    border-top: 0.7rem solid white;
+}

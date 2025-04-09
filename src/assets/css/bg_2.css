@@ -1,0 +1,10 @@
+.bg_border {
+    border: 0.1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg2_wrap {
+    /* margin-top: -12%; */
+    position: relative;
+    /* 不可用position:static，因為位階高低，畫面前後效果不一 */
+    z-index: 1;
+}

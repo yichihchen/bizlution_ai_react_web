@@ -1,0 +1,15 @@
+.morebutton {
+    border-radius:30px; 
+    left:7.6%;
+    /* 30px */
+    border: 1px solid  #f3dd52;
+    color: #f3dd52;
+}
+
+
+.morebutton:hover {
+    border: 2px solid #f3dd52;
+    color: rgba(17, 25, 40, 0.8);
+    /* bg:dark */
+    background-color: #f3dd52;
+}

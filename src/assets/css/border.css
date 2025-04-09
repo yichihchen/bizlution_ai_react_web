@@ -1,0 +1,29 @@
+.bg_border {
+    border: 0.1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg_border_tb {
+    border-top: 0.1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg_border_b{
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg_border_lr{
+    border-left: 0.1px solid rgba(255, 255, 255, 0.1);
+    border-right: 0.1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg_border_l{
+    border-left: 0.1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg_border_r{
+    border-right: 0.1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg_border_t{
+    border-top: 0.1px solid rgba(255, 255, 255, 0.1);
+}

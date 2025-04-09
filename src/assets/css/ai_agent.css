@@ -1,0 +1,62 @@
+/* 背景往下推 */
+.agent-wrap {
+    /* z-index:-2; */
+    z-index: 1;
+}
+
+
+.agent_subwrap_rl {
+    border-inline: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+
+.agent_subwrap_r {
+    border-right: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+
+.agent_title {
+    width: fit-content;
+    /* 使底下線條能和字體寬度相等，不得超過 */
+    margin: 0 auto;
+}
+
+.agent_title::after {
+    content: "";
+    display: inline-block;
+    border-bottom: 3px solid #cdcdcd;
+    width: 100%;
+    position: relative;
+    top: -10px;
+}
+
+.agentbg_decoration {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height:100%;
+    z-index:-3;
+}
+
+
+
+/* .agent_decoration_bg {
+    position: absolute;
+    z-index:-3;
+    top: 30%;
+    width:100%;
+    height:100%;
+    
+} */
+
+/* .agent_decoration_bg {
+    position: absolute;
+    z-index:-3;
+    top: 30%;
+ 
+    width:100%;
+    height:100vh; 
+    overflow: hidden;
+} */
+
+/* .agent-border {
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+} */
